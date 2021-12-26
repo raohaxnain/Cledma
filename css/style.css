@@ -1,0 +1,350 @@
+body {
+    background-color: #FFF7ED;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: #6F6668 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #F70539 !important;
+    border-bottom: 2px solid #F70539;
+}
+
+.active-nav {
+    font-weight: bold;
+    border-bottom: 2px solid #F70539;
+    color: #F70539 !important;
+}
+
+p {
+    color: #6F6668;
+    font-size: 0.9rem;
+}
+.privacy{
+    color: black;
+}
+
+.contact-btn {
+    color: #F70539;
+    border: 1px solid #F70539;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 8px;
+}
+
+.red-color {
+    color: #F70539;
+}
+
+.strat-btn {
+    background-color: #F70539;
+    padding: 8px 27px;
+    font-weight: 600;
+    box-shadow: 0px 40px 30px rgba(247, 5, 57, 0.15);
+}
+
+.line {
+    width: 40px;
+    padding: 0;
+    position: absolute;
+    height: 2px;
+    left: 18px;
+    top: 57px;
+    background: #F70539;
+}
+.line2 {
+    width: 40px;
+    padding: 0;
+    position: absolute;
+    height: 2px;
+    right: 0px;
+    left: 110px;
+    top: 49px;
+    background: #F70539;
+}
+.line1 {
+    width: 40px;
+    padding: 0;
+    position: absolute;
+    height: 2px;
+    right: 0px;
+    left: -114px;
+    top: 49px;
+    background: #F70539;
+}
+.offer-btn {
+    background-color: #122F71;
+    padding: 8px 22px;
+    box-shadow: 0px 40px 30px rgba(18, 47, 113, 0.15);
+}
+
+.color-black {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.line-height {
+    line-height: 1.4em;
+}
+
+.size {
+    font-size: 1.1rem;
+}
+
+.bodr {
+    border-bottom: 2px solid #d0d2d6;
+    cursor: pointer;
+}
+
+.tab-color {
+    color: #6F6668;
+    font-weight: bold;
+}
+
+.active-tab {
+    border-bottom: 2px solid #FF4900;
+}
+
+.active-tab .tab-color {
+    color: #F70539;
+    font-weight: bold;
+}
+
+.card-size {
+    font-size: 0.3em;
+    color: #6F6668;
+}
+
+.card-size1 {
+    font-size: 0.7em;
+    color: #6F6668;
+}
+
+.Pricing-hvr:hover .card-size {
+    color: white;
+}
+
+.Pricing-hvr:hover .card-size1 {
+    color: white;
+}
+
+.Pricing-hvr:hover .gray-color {
+    color: white;
+}
+
+.card-bodr {
+    border-bottom: 4px solid #F70539;
+    width: 60%;
+    margin-left: 39px;
+    border-radius: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/left.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/right.svg);
+    width: 30px;
+    height: 30px;
+}
+
+#form input {
+    background-color: #FFF7ED;
+    height: 3rem;
+}
+
+#form label {
+    color: #6F6668;
+    font-weight: 600;
+}
+
+#form input:hover {
+    background-color: #FFF7ED;
+    box-shadow: 0px 18px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #F70539;
+}
+
+#form textarea:hover {
+    background-color: #FFF7ED;
+    box-shadow: 0px 18px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #F70539;
+}
+
+#form textarea {
+    background-color: #FFF7ED;
+}
+
+.location-clr {
+    color: #6F6668;
+    font-weight: 600;
+}
+
+.bg-color {
+    background-color: #122F71;
+    color: white !important;
+}
+
+.footer-text {
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer-text:hover {
+    color: #FF4900 !important;
+    text-decoration: none;
+}
+
+#link a #b {
+    display: none;
+}
+
+#link a:hover #b {
+    display: inline;
+}
+
+#link a:hover #a {
+    display: none;
+}
+
+.size1 {
+    font-size: 0.8rem;
+    color: #6F6668;
+}
+
+.plan-btn {
+    border: 1px solid #F70539;
+    padding: 8px 20px;
+    color: #F70539;
+    font-weight: 600;
+}
+
+.Pricing-hvr:hover {
+    background-color: #122F71;
+    box-shadow: 0px 32px 60px 18px rgba(0, 0, 0, 0.15);
+    color: white;
+    cursor: pointer;
+}
+
+.Pricing-hvr:hover .size1 {
+    color: white;
+}
+
+.Pricing-hvr:hover .plan-btn {
+    color: white;
+    background-color: #F70539;
+}
+
+.Pricing-hvr #a {
+    display: inline;
+}
+
+.Pricing-hvr #b {
+    display: none;
+}
+
+.Pricing-hvr :hover #b {
+    display: inline;
+}
+
+.Pricing-hvr :hover #a {
+    display: none;
+}
+.active-card #b{
+    display: inline;
+}
+.active-card #a{
+    display: none;
+}
+.active-card{
+    background-color: #122F71;
+    box-shadow: 0px 32px 60px 18px rgba(0, 0, 0, 0.15);
+    color: white;
+    cursor: pointer;
+}
+.active-card .gray-color {
+    color: white;
+}
+.active-card h6 {
+    color: white !important;
+}
+.active-card .plan-btn {
+    color: white;
+    background-color: #F70539;
+}
+.active-card .card-size {
+    color: white;
+}
+
+/* =================================== BLOG PAGE ======================================= */
+form select {
+    height: 3rem !important;
+}
+
+.btn-marketing {
+    font-size: 0.9rem;
+    background-color: #FEF4D3;
+    color: #FDDD7C;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 2px 15px;
+}
+
+.btn-marketing:hover {
+    color: #FDDD7C;
+}
+
+.blog-card:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color: transparent;
+    border: 1px solid #F70539;
+    font-weight: bold;
+    color: #F70539;
+    padding: 8px 25px;
+}
+.crd-clr {
+    border-left: 5px solid #F70539;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.text-dark1{
+    color: black;
+}
+.text-dark1:hover{
+    color: white;
+}
+.carousel-inner{
+    height: 240px;
+}
+
+/* ====================================== MEDIA CUREY ===================================== */
+@media (max-width: 780px) {
+    .card-bodr {
+        border-bottom: 4px solid #F70539;
+        width: 45%;
+        margin-left: 69px;
+        border-radius: 50px;
+    }
+    .fnt-size{
+       font-size: 0.8rem;
+    }
+    h1{
+        font-size: 2.1rem;
+    }
+    .carousel-inner{
+        height: 290px;
+    }
+}
